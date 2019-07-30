@@ -1,0 +1,37 @@
+{
+  "name": "index-map",
+  "version": "1.0.0",
+  "description": "Index map for JavaScript and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucGranato/index-map-js.git"
+  },
+  "keywords": [
+    "index",
+    "string",
+    "builder",
+    "map",
+    "mapper",
+    "path",
+    "url"
+  ],
+  "author": "Luca Chamecki Granato <luca.granato@engaged.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucGranato/index-map-js/issues"
+  },
+  "homepage": "https://github.com/LucGranato/index-map-js#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-mocha": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2"
+  }
+}
