@@ -1,7 +1,7 @@
 'use strict';
 
 const assert = require('assert');
-const indexMap = require('../index');
+const indexMap = require('../index-map');
 
 describe('index-map library', () => {
     describe('default use case', () => {

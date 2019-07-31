@@ -2,7 +2,7 @@
   "name": "index-map",
   "version": "1.0.2",
   "description": "Index map for JavaScript and Node.js",
-  "main": "index.js",
+  "main": "index-map.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
